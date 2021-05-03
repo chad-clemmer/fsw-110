@@ -6,13 +6,14 @@ for (var i = 0; i < 10; i++) {
 }
 
 
-
 var names = ['steve', 'larry', 'joe', 'shirley', 'steph', 'nate', 'rick', 'emily'];
 
-var namesList = document.getElementById("firstNames")
+var newList = document.createElement('ul')
+    document.body.appendChild(newList)
 
 for (var i = 0; i < names.length; i++){
-    var newName = document.createElement("li")
+    
+    var newName = document.createElement('li')
     newName.textContent = names[i]
-    namesList.append(newName)
+    newList.append(newName)
 }
