@@ -36,3 +36,24 @@ window.addEventListener("scroll", function(){
 window.addEventListener("load", function(){
     document.getElementById("square").style.backgroundColor = "black";
 })
+
+document.addEventListener("keydown", function(event) {
+    if (event.which == 82) {
+        document.getElementById("square").style.backgroundColor = "red"; 
+    }
+    else if (event.which == 66) {
+        document.getElementById("square").style.backgroundColor = "blue";
+    }
+    else if (event.which == 71) {
+        document.getElementById("square").style.backgroundColor = "green";
+    }
+    else if (event.which == 80) {
+        document.getElementById("square").style.backgroundColor = "purple";
+    }
+    else if (event.which == 89) {
+        document.getElementById("square").style.backgroundColor = "yellow";
+    }
+    else if (event.which == 87) {
+        document.getElementById("square").style.backgroundColor = "white";
+    }
+})
