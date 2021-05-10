@@ -57,3 +57,7 @@ document.addEventListener("keydown", function(event) {
         document.getElementById("square").style.backgroundColor = "white";
     }
 })
+
+var div2 = document.createElement("div");
+div2.setAttribute("class", "div2");
+document.body.appendChild(div2);
